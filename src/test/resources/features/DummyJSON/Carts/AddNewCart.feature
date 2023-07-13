@@ -12,5 +12,3 @@ Feature: Add New Cart
     Given Post add new cart with empty json
     When Send request post add new cart with empty json
     Then Status code should be 400 Bad Request
-
-    Scenario: add new cart with invalid json
