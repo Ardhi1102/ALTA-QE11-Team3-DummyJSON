@@ -37,5 +37,8 @@ public class GetSingleUserStepDef {
                 .body(UsersResponse.lastName, equalTo(lastName))
                 .body(UsersResponse.maidenName, equalTo(maidenName));
 
+
+
+
     }
 }
