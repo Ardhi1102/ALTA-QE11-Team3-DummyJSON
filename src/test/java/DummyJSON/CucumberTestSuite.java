@@ -1,4 +1,4 @@
-package starter;
+package DummyJSON;
 
 
 import io.cucumber.junit.CucumberOptions;
