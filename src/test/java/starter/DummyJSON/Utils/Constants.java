@@ -6,7 +6,8 @@ public class Constants {
     public static String JSON = DIR + "/src/test/resources/JSON";
     public static String JSON_Schema = JSON + "/JSONSchema";
     public static String JSON_Body = JSON + "/JSONBody";
-    public static String Auth_Body = JSON_Body + "/Auth";
-    public static String Auth_Schema = JSON_Schema + "/Auth";
+    public static String Carts_Schema = JSON_Schema + "/Carts";
+    public static String Carts_Body = JSON_Body + "/Carts";
+
 
 }
