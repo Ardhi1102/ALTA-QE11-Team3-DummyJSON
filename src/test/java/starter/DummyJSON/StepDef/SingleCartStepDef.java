@@ -42,7 +42,7 @@ public class SingleCartStepDef {
 
     @And("Validate get single user JSON schema")
     public void validateGetSingleUserJSONSchema() {
-        File json = new File(Constants.Carts + "/SingleCartValidParameter.json");
+        File json = new File(Constants.Carts_Schema + "/SingleCartValidParameter.json");
         SerenityRest.and()
                 .assertThat()
                 .body(JsonSchemaValidator.matchesJsonSchema(json));
