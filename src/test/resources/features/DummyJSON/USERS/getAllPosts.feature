@@ -5,6 +5,8 @@ Feature: Get All Posts on Dummyjson.com
     Then Should return 200 OK
     And Response body should contain total posts 150
     And Get all posts json Schema Validator
+
+#// Seharusnya status kode 404, tetapi postman masih membaca 200
   Scenario Outline: Get all posts with invalid parameter
     Given Get all posts with parameter "<path>"
     When Send request get all post

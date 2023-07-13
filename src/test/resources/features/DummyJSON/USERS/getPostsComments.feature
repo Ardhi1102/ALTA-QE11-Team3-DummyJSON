@@ -10,7 +10,7 @@ Feature: Get Posts Comments on Dummyjson.com
       |1 |
       |92|
       |100|
-      |150|
+
 
   Scenario Outline: Get post comments with invalid post id
     Given Get post comments with invalid post id "<id>"

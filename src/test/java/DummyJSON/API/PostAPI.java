@@ -9,8 +9,8 @@ import java.io.File;
 public class PostAPI {
     public static String URL = "https://dummyjson.com";
     public static final String DIR = System.getProperty("user.dir");
-    public static final String JSON_FILE = DIR+"/src/test/resources/JSON/File/Posts";
-    public static final String JSON_VALIDATOR = DIR+"/src/test/resources/JSON/JSONs/JSONSchema";
+    public static final String JSON_FILE = DIR+"/src/test/resources/JSON/JSONs/JSONBody";
+    public static final String JSON_VALIDATOR = DIR+"/src/test/resources/JSON/JSONs/SchemaValidator/Post";
 
     public static String GET_ALL_POSTS = URL+"/{parameter}";
     public static String GET_SINGLE_POST = URL+"/posts/{id}";

@@ -21,6 +21,7 @@ Feature: Create New Posts on Dummyjson.com
     When Send request post new post
     Then Should return 404 Not Found
 
+#    //Seharusnya 400 bad request, tetapi postman 200 Ok, dikarenakan bisa menambahkan dengan empty value
   Scenario: Create new post with registered user id  and empty value
     Given Post new post registered user id  and empty value
     When Send request post new post

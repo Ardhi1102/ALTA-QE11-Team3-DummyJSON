@@ -8,10 +8,10 @@ Feature: Patch Update Posts on Dummyjson.com
     And Patch Update posts json schema validator
     Examples:
       |id|title|
-      |1 |Buku kita bersama|
-      |92|Buku kita bersama|
-      |100|Buku kita bersama|
-      |150|Buku kita bersama|
+      |1 |3 Bulan Pasti jadi QA|
+      |92|3 Bulan Pasti jadi QA|
+      |100|3 Bulan Pasti jadi QA|
+      |150|3 Bulan Pasti jadi QA|
 
   Scenario Outline: Patch Update post with invalid Posts id
     Given  Patch update post with invalid id "<id>"

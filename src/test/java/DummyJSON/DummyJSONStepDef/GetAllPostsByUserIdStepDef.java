@@ -1,13 +1,15 @@
 package DummyJSON.DummyJSONStepDef;
 
+import DummyJSON.API.PostAPI;
+import DummyJSON.DummyJSONResponses.PostsResponses;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.restassured.module.jsv.JsonSchemaValidator;
 import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Steps;
-import starter.dummyjson.API.PostsAPI.PostAPI;
-import starter.dummyjson.DummyjsonResponses.PostsResponses;
+
 
 import java.io.File;
 
@@ -42,4 +44,17 @@ public class GetAllPostsByUserIdStepDef {
         File json = new File (PostAPI.JSON_VALIDATOR+"/GetAllPostsByUserIdJsonSchemaValidator.json");
         SerenityRest.then().assertThat().body(JsonSchemaValidator.matchesJsonSchema(json));
     }
+    @Then("Should return {int} OK")
+    public void shouldReturnOK(Integer OK) {
+        SerenityRest.then().statusCode(OK);
+    }
+    @Then("Should return {int} Bad Request")
+    public void shouldReturnBadRequest(int badRequest) {
+        SerenityRest.then().statusCode(badRequest);
+    }
+    @Then("Should return {int} Not Found")
+    public void shouldReturnNotFound(int notFound) {
+        SerenityRest.then().statusCode(notFound);
+    }
+
 }
