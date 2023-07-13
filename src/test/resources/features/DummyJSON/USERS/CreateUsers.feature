@@ -7,7 +7,6 @@ Feature: Create user from Dummyjson.com
     And body response should return to unused id 101 with body data
     And Create user with body data json schema validator
 
-
 #// expektasi seharusnya 400, tetapi masih di baca 200
   Scenario: Create User with Empty Value Body Data
     Given Create user with empty body data
