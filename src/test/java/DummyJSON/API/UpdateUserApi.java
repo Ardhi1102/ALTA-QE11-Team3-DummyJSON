@@ -13,8 +13,8 @@ public class UpdateUserApi {
     public static String UPDATE_USER = URl + "/users/1";
     public static String UPDATE_USER_UNREGISTERED = URl + "/users/101";
     public static String UPDATE_USER_SPECIAL_CHARACTER = URl + "/users/@@@@";
-    public static String UPDATE_USER_BODY_REQUEST = DIR +"/src/test/resources/JSON/BodyRequest/Users";
-    public static String UPDATE_USER_JSON_SCHEMA = DIR +"/src/test/resources/JSON/SchemaValidator/Users";
+    public static String UPDATE_USER_BODY_REQUEST = DIR +"/src/test/resources/JSON/JSONs/JSONBody";
+    public static String UPDATE_USER_JSON_SCHEMA = DIR +"/src/test/resources/JSON/JSONs/JSONSchema";
 
 
 

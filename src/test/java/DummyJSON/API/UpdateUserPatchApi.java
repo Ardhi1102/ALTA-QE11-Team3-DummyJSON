@@ -11,8 +11,8 @@ public class UpdateUserPatchApi {
     public static final String DIR = System.getProperty("user.dir");
     public static String UPDATE_USER_PATCH_REGISTERED = URl + "/users/1";
     public static String UPDATE_USER_PATCH_UNREGISTERED = URl + "/users/103";
-    public static String UPDATE_USER_PATCH_BODY_REQUEST = DIR +"/src/test/resources/JSON/BodyRequest/Users";
-    public static String UPDATE_USER_PATCH_JSON_SCHEMA = DIR +"/src/test/resources/JSON/SchemaValidator/Users";
+    public static String UPDATE_USER_PATCH_BODY_REQUEST = DIR +"/src/test/resources/JSON/JSONs/JSONBody";
+    public static String UPDATE_USER_PATCH_JSON_SCHEMA = DIR +"/src/test/resources/JSON/JSONs/JSONSchema";
 
 
 

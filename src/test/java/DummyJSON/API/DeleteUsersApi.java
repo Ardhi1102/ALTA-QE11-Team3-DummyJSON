@@ -6,7 +6,7 @@ import net.thucydides.core.annotations.Step;
 public class DeleteUsersApi {
     public static String URl = "https://dummyjson.com";
     public static final String DIR = System.getProperty("user.dir");
-    public static String DELETE_USER_JSON_SCHEMA = DIR +"/src/test/resources/JSON/SchemaValidator/Users";
+    public static String DELETE_USER_JSON_SCHEMA = DIR +"/src/test/resources/JSON/JSONs/JSONSchema";
     public static String DELETE_USER = URl + "/users/{id}";
 
 

@@ -1,5 +1,7 @@
 package DummyJSON.DummyJSONStepDef;
 
+import DummyJSON.API.GetAllUsersApi;
+import DummyJSON.DummyJSONResponses.UsersResponse;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -7,8 +9,6 @@ import io.cucumber.java.en.When;
 import io.restassured.module.jsv.JsonSchemaValidator;
 import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Steps;
-import starter.dummyjson.API.UsersAPI.GetAllUsersApi;
-import starter.dummyjson.DummyjsonResponses.UsersResponse;
 
 import java.io.File;
 
@@ -20,7 +20,9 @@ public class GetSingleUserStepDefinition {
     GetAllUsersApi getAllUsersApi;
 
     @Given("Get single user with valid id {}")
-    public void getSingleUserWithValidId (int id) {getAllUsersApi.getSingleUSer(id);}
+    public void getSingleUserWithValidId (int id) {
+        getAllUsersApi.getSingleUSer(id);
+    }
 
 
     @When("Send request get single user")

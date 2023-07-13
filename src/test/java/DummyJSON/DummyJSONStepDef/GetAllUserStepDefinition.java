@@ -1,4 +1,5 @@
 package DummyJSON.DummyJSONStepDef;
+import DummyJSON.API.GetAllUsersApi;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -6,7 +7,6 @@ import io.cucumber.java.en.When;
 import io.restassured.module.jsv.JsonSchemaValidator;
 import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Steps;
-import starter.dummyjson.API.UsersAPI.GetAllUsersApi;
 
 import java.io.File;
 
