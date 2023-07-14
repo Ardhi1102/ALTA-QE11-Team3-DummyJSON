@@ -1,4 +1,4 @@
-package starter.DummyJSON.StepDef;
+package starter.DummyJSON.StepDef.AUTH;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
@@ -49,18 +49,6 @@ public class LoginStepDef {
     public void sendRequestPostLoginWithInvalidEmailAndValidPassword() {
         SerenityRest.when()
                 .post(AuthAPI.POST_LOGIN);
-    }
-
-    @Then("Status code should be {int} OK")
-    public void statusCodeShouldBeOK(int code) {
-        SerenityRest.then()
-                .statusCode(code);
-    }
-
-    @Then("Status code should be {int} Bad Request")
-    public void statusCodeShouldBeBadRequest(int code) {
-        SerenityRest.then()
-                .statusCode(code);
     }
 
     @And("Validate login success user JSON schema")
