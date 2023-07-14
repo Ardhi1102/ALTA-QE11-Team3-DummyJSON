@@ -19,7 +19,7 @@
 - Spreadsheet: https://s.id/Sheet_DummyJSON_Team3
   
 ### C. Image of overall test report
-### D. Image Coverage for Each Feature
+![Report 1.png]( {https://github.com/Ardhi1102/ALTA-QE11-Team3-DummyJSON/blob/master/Report%201.png} )
 ### E. Tools & Technology Stack
 
 **Manual Testing Tools:**
