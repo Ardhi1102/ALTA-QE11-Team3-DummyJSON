@@ -22,10 +22,6 @@ public class GetAllUserStepDefinition {
     public void sendRequestGetAllUsers() {
         SerenityRest.when().get(GetAllUsersApi.GET_ALL_USER);}
 
-    @Then("Status should return {int} OK")
-    public void statusShouldReturnOK(int OK) {
-        SerenityRest.then().statusCode(OK);}
-
     @And("Get all user json schema validator")
     public void getAllUserJsonSchemaValidator() {
         File json = new File(GetAllUsersApi.JSON_SCHEMA_GET_ALL_USER + "/GetAllUsersJsonSchema.json");
@@ -40,9 +36,7 @@ public class GetAllUserStepDefinition {
     public void sendRequestGetAllUsersInvalidPath() {
         SerenityRest.when().get(GetAllUsersApi.GET_ALL_USER_INVALID_1);}
 
-    @Then("Status should return {int} Not Found")
-    public void statusShouldReturnNotFound(int Not_Found) {
-        SerenityRest.then().statusCode(Not_Found);}
+
 
     @When("Send request get all users with adding letters on path")
     public void sendRequestGetAllUsersWithAddingLettersOnPath() {SerenityRest.when().get(GetAllUsersApi.GET_ALL_USER_INVALID_2);}

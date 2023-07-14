@@ -57,7 +57,4 @@ public class GetSingleUserStepDefinition {
     public void sendRequestGetSingleUserCharacter() {SerenityRest.when().get(GetAllUsersApi.GET_SINGLE_USER_CHARACTER);
     }
 
-    @Then("Status should return {int} Bad Request")
-    public void statusShouldReturnOOBadRequest(int Bad_Request) { SerenityRest.then().statusCode(Bad_Request);
-    }
 }

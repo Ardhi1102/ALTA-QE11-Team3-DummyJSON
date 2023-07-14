@@ -28,11 +28,6 @@ public class SingleCartStepDef {
                 .get(CartsAPI.GET_SINGLE_CARTS);
     }
 
-    @Then("Status code should be {int} OK")
-    public void statusCodeShouldBeOK(int code) {
-        SerenityRest.then().statusCode(code);
-    }
-
     @And("Response body page should be display userId {} and total {}")
     public void andResponseBodyPageShouldBeDisplayFirstNameAndLastName(int userId, int total) {
         SerenityRest.and()
@@ -47,12 +42,6 @@ public class SingleCartStepDef {
                 .assertThat()
                 .body(JsonSchemaValidator.matchesJsonSchema(json));
     }
-
-    @Then("Status code should be {int} Not Found")
-    public void statusCodeShouldBeNotFound(int code) {
-        SerenityRest.then().statusCode(code);
-    }
-
     @Given("Get single cart with exceed parameter id {}")
     public void getSingleCartWithExceedParameterId(int id) {
         cartsAPI.getSingleCart(id);
@@ -63,9 +52,4 @@ public class SingleCartStepDef {
         cartsAPI.getSingleCartInvalidParam(id);
     }
 
-    @Then("Status code should be {int} Bad Request")
-    public void statusCodeShouldBeBadRequest(int code) {
-        SerenityRest.then()
-                .statusCode(code);
-    }
 }

@@ -26,12 +26,6 @@ public class SingleCommentStepDef {
                 .get(CommentAPI.GET_SINGLE_COMMENT);
     }
 
-    @Then("Status code should be {int} OK")
-    public void statusCodeShouldBeOK(int code) {
-        SerenityRest.then()
-                .statusCode(code);
-    }
-
     @And("Validate get single comment valid parameter json schema")
     public void validateSingleCommentValidParameterJsonSchema() {
         File json = new File(Constants.Comment_Schema + "/SingleCommentValidParam.json");
@@ -51,21 +45,9 @@ public class SingleCommentStepDef {
                 .get(CommentAPI.GET_SINGLE_COMMENT);
     }
 
-    @Then("Status code should be {int} Bad Request")
-    public void statusCodeShouldBeBadRequest(int code) {
-        SerenityRest.then()
-                .statusCode(code);
-    }
-
     @Given("Get single comment with exceed parameter id {}")
     public void getSingleCommentWithExceedParameterId(int id) {
         commentAPI.getSingleComment(id);
-    }
-
-    @Then("Status code should be {int} Not Found")
-    public void statusCodeShouldBeNotFound(int code) {
-        SerenityRest.then()
-                .statusCode(code);
     }
 
     @And("Validate get single comment exceed parameter json schema")

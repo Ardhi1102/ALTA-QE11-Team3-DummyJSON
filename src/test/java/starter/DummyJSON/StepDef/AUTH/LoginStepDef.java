@@ -51,18 +51,6 @@ public class LoginStepDef {
                 .post(AuthAPI.POST_LOGIN);
     }
 
-    @Then("Status code should be {int} OK")
-    public void statusCodeShouldBeOK(int code) {
-        SerenityRest.then()
-                .statusCode(code);
-    }
-
-    @Then("Status code should be {int} Bad Request")
-    public void statusCodeShouldBeBadRequest(int code) {
-        SerenityRest.then()
-                .statusCode(code);
-    }
-
     @And("Validate login success user JSON schema")
     public void validateLoginSuccessUserJSONSchema() {
         File json = new File(Constants.Auth_Schema + "/LoginSuccess.json");

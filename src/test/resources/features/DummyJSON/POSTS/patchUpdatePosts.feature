@@ -4,7 +4,7 @@ Feature: Patch Update Posts on Dummyjson.com
   Scenario Outline: Patch Update post with valid Posts id
     Given  Patch update post with valid id <id>
     When Send request patch update post
-    Then Should return 200 OK
+    Then Status code should be 200 OK
     And Response posts body should contain posts title "<title>"
     And Patch Update posts json schema validator
     Examples:
@@ -18,7 +18,7 @@ Feature: Patch Update Posts on Dummyjson.com
   Scenario Outline: Patch Update post with invalid Posts id
     Given  Patch update post with invalid id "<id>"
     When Send request patch update post
-    Then Should return 400 Bad Request
+    Then Status code should be 400 Bad Request
     Examples:
       |id|
       |tes|
@@ -30,7 +30,7 @@ Feature: Patch Update Posts on Dummyjson.com
   Scenario Outline: Patch Update post with unregistered Posts id
     Given  Patch update post with unregistered id <id>
     When Send request patch update post
-    Then Should return 404 Not Found
+    Then Status code should be 404 Not Found
     Examples:
       |id |
       |200|
