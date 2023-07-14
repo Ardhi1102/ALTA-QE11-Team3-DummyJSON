@@ -1,9 +1,6 @@
 Feature:Single Cart
-<<<<<<< HEAD
-  @tugas #Positive Case
-=======
+
   @Tugas #Positive Case
->>>>>>> develop
   Scenario Outline: Get single cart with valid parameter id
     Given Get single cart with valid parameter id <id>
     When Send request get single cart with valid parameter id
@@ -15,11 +12,8 @@ Feature:Single Cart
       | 1  | 97     | 2328  |
       | 2  | 30     | 3023  |
 
-<<<<<<< HEAD
+
   @tugas #Negative Case
-=======
-  @Tugas #Negative Case
->>>>>>> develop
   Scenario Outline: Get single cart with exceed parameter id
     Given Get single cart with exceed parameter id <id>
     When Send request get single cart with valid parameter id
@@ -29,11 +23,7 @@ Feature:Single Cart
       | 21 |
       | 25 |
 
-<<<<<<< HEAD
-  @tugas #Negative Case
-=======
   @Tugas #Negative Case
->>>>>>> develop
   Scenario Outline: Get single cart with invalid parameter id
     Given Get single cart with invalid parameter id "<id>"
     When Send request get single cart with valid parameter id
