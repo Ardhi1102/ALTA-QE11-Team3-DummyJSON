@@ -21,7 +21,7 @@
 ### C. Image of overall test report
 ![alt text](https://github.com/Ardhi1102/ALTA-QE11-Team3-DummyJSON/blob/master/Report%201.png?raw=true)
 
-### E. Tools & Technology Stack
+### D. Tools & Technology Stack
 
 **Manual Testing Tools:**
 - [Postman](https://www.postman.com/)
@@ -44,7 +44,7 @@
 - [Telegram](https://web.telegram.org/)
 - [Zoom](https://zoom.us/)
 
-### F. How to Run Project
+### E. How to Run Project
 **Manual Testing:**
 1. Add new request
 2. Choose method
@@ -57,6 +57,6 @@
 1. Click on text editor terminal
 2. Input mvn clean verify
    
-### G. Team Member
+### F. Team Member
 - [Ardhi Wiranata](https://github.com/Ardhi1102)
 - [Khairul Fahmi](https://github.com/sultanjoss)
