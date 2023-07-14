@@ -19,7 +19,8 @@
 - Spreadsheet: https://s.id/Sheet_DummyJSON_Team3
   
 ### C. Image of overall test report
-![Report 1.png]( {https://github.com/Ardhi1102/ALTA-QE11-Team3-DummyJSON/blob/master/Report%201.png} )
+![alt text](https://github.com/Ardhi1102/ALTA-QE11-Team3-DummyJSON/blob/master/Report%201.png?raw=true)
+
 ### E. Tools & Technology Stack
 
 **Manual Testing Tools:**
