@@ -1,9 +1,5 @@
-<<<<<<<< HEAD:src/test/java/DummyJSON/CucumberTestSuite.java
-package DummyJSON;
-========
-package starter.DummyJSON;
->>>>>>>> origin/develop:src/test/java/starter/DummyJSON/CucumberTestSuite.java
 
+package starter.DummyJSON;
 
 import io.cucumber.junit.CucumberOptions;
 import net.serenitybdd.cucumber.CucumberWithSerenity;
