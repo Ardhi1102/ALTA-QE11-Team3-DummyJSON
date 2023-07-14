@@ -1,4 +1,6 @@
 Feature: Get Posts Comments on Dummyjson.com
+
+  @Tugas
   Scenario Outline: Get post comments with valid post id
     Given Get post comments with valid post id <id>
     When Send request get posts comments
@@ -11,7 +13,7 @@ Feature: Get Posts Comments on Dummyjson.com
       |92|
       |100|
 
-
+  @Tugas
   Scenario Outline: Get post comments with invalid post id
     Given Get post comments with invalid post id "<id>"
     When Send request get posts comments
@@ -23,6 +25,7 @@ Feature: Get Posts Comments on Dummyjson.com
       |!@#%|
       |%@#$|
 
+ @Tugas
   Scenario Outline: Get post comments with unregistered post id
     Given Get post comments with unregistered post id <id>
     When Send request get posts comments

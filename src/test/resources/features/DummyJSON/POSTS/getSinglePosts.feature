@@ -1,4 +1,6 @@
 Feature: Get Single Posts on Dummyjson.com
+
+  @Tugas
   Scenario Outline: Get single post with valid id
     Given Get single post with parameter <id>
     When Send request get single post
@@ -11,7 +13,7 @@ Feature: Get Single Posts on Dummyjson.com
       |92|
       |100|
       |150|
-
+  @Tugas
   Scenario Outline: Get single post with String id
     Given Get single post with parameter "<id>"
     When Send request get single post
@@ -20,8 +22,7 @@ Feature: Get Single Posts on Dummyjson.com
       |id|
       |tes|
       |ZYG|
-
-
+  @Tugas
   Scenario Outline: Get single post with Special Char id
     Given Get single post with parameter "<id>"
     When Send request get single post
@@ -30,6 +31,8 @@ Feature: Get Single Posts on Dummyjson.com
       |id  |
       |!@#%|
       |%@#$|
+
+   @Tugas
   Scenario Outline: Get single post with unregistered id
     Given Get single post with parameter <id>
     When Send request get single post

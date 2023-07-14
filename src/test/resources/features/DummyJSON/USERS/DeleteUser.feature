@@ -1,5 +1,5 @@
 Feature: Delete User at Dummyjson.com
-
+@Tugas
   Scenario Outline: Delete User with Registered id
     Given Delete user with registered id <id>
     When Send request delete user
@@ -10,6 +10,7 @@ Feature: Delete User at Dummyjson.com
     |1 |
     |2 |
 
+   @Tugas
     Scenario: Delete User with Unregistered Id
       Given Delete user with Unregistered Id 103
       When Send request delete user

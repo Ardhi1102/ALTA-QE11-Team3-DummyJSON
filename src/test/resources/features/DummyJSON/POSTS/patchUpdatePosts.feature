@@ -1,5 +1,6 @@
 Feature: Patch Update Posts on Dummyjson.com
 
+@Tugas
   Scenario Outline: Patch Update post with valid Posts id
     Given  Patch update post with valid id <id>
     When Send request patch update post
@@ -13,6 +14,7 @@ Feature: Patch Update Posts on Dummyjson.com
       |100|3 Bulan Pasti jadi QA|
       |150|3 Bulan Pasti jadi QA|
 
+@Tugas
   Scenario Outline: Patch Update post with invalid Posts id
     Given  Patch update post with invalid id "<id>"
     When Send request patch update post
@@ -24,6 +26,7 @@ Feature: Patch Update Posts on Dummyjson.com
       |!@#%|
       |%@#$|
 
+@Tugas
   Scenario Outline: Patch Update post with unregistered Posts id
     Given  Patch update post with unregistered id <id>
     When Send request patch update post

@@ -1,5 +1,5 @@
 Feature: Delete Posts on Dummyjson.com
-
+  @Tugas
   Scenario Outline: Delete a post with valid posts id
     Given  Delete post with valid id <id>
     When Send request delete post
@@ -13,7 +13,7 @@ Feature: Delete Posts on Dummyjson.com
     |92|
     |100|
     |150|
-
+  @Tugas
   Scenario Outline: Delete a post with invalid posts id
     Given  Delete post with invalid id "<id>"
     When Send request delete post
@@ -24,7 +24,7 @@ Feature: Delete Posts on Dummyjson.com
       |xyz|
       |!#$|
       |%#@|
-
+  @Tugas
   Scenario Outline: Delete a post with unregistered posts id
     Given  Delete post with unregistered id <id>
     When Send request delete post

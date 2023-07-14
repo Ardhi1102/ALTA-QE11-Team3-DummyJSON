@@ -1,4 +1,6 @@
 Feature: Get all posts by user id on Dummyjson.com
+
+  @Tugas
   Scenario Outline: Get all posts with valid user id
     Given Get all posts with valid user id <id>
     When Send request get all posts
@@ -10,6 +12,8 @@ Feature: Get all posts by user id on Dummyjson.com
       |1 |
       |10|
       |50|
+
+    @Tugas
   Scenario Outline: Get all posts with invalid user id
     Given Get all posts with invalid user id "<id>"
     When Send request get all posts
@@ -20,6 +24,8 @@ Feature: Get all posts by user id on Dummyjson.com
       |ZYG|
       |!@#%|
       |%@#$|
+
+      @Tugas
   Scenario Outline: Get all posts with unregistered user id
     Given Get all posts with unregistered user id <id>
     When Send request get all posts
