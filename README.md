@@ -12,7 +12,7 @@
   
 - Scope
 
-  The scope of this project includes a number of endpoints and resources exposed by the DummyJSON API. This includes the following: Auth, Carts, Products, Users, and Quotes.
+  The scope of this project includes a number of endpoints and resources exposed by the DummyJSON API. This includes the following: Auth, Carts, Comments, Users, Posts.
   
 ### B. Manual Test Case Link
 - Postman: https://s.id/Postman_DummyJSON_Team3
