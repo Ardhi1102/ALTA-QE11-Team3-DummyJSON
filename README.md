@@ -30,8 +30,8 @@
 - [Google Spreadsheet](https://www.google.com/sheets/about/)
 
 **Team Collaboration:**
-- [Trello (Work Management Tool)](https://trello.com/)
-- [GitHub (Version Control System Platform)](https://github.com/)
+- [Trello](https://trello.com/)
+- [GitHub](https://github.com/)
 - [Telegram](https://web.telegram.org/)
 - [Zoom](https://zoom.us/)
 
@@ -43,10 +43,11 @@
 4. Input body (if needed)
 5. Input assertion
 6. Click send
+   
 **Automation Testing:**
 1. Click on text editor's terminal
 2. input => mvn clean verify
-3.  
+   
 ### G. Team Member
 - [Ardhi Wiranata](https://github.com/Ardhi1102)
 - [Khairul Fahmi](https://github.com/sultanjoss)
