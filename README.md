@@ -3,8 +3,16 @@
 
 ### A. Description Project
 - Intro DummyJSON
+
+  DummyJSON is a free online REST API that you can use whenever you need some placeholder data for your front-end website or single-page application without running any server-side code. It's awesome for teaching purposes, sample codes, testing, prototyping.
+
 - Goal Project
+
+  The goal of this project is to create a comprehensive set of manual and automated tests for the DummyJSON API. These tests will help to ensure that the API is working as expected.
+  
 - Scope
+
+  The scope of this project includes a number of endpoints and resources exposed by the DummyJSON API. This includes the following: Auth, Carts, Products, Users, and Quotes.
   
 ### B. Manual Test Case Link
 - Postman: https://s.id/Postman_DummyJSON_Team3
@@ -45,8 +53,8 @@
 6. Click send
    
 **Automation Testing:**
-1. Click on text editor's terminal
-2. input => mvn clean verify
+1. Click on text editor terminal
+2. Input mvn clean verify
    
 ### G. Team Member
 - [Ardhi Wiranata](https://github.com/Ardhi1102)
