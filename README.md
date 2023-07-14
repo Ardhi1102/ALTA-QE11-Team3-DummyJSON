@@ -1,9 +1,61 @@
-# Getting started with REST DummyJSON.API testing with Serenity and Cucumber 6
+# Team 3 Group Project Quality Engineer Batch 11 Alterra Academy
+### API Manual and Automation Testing for web https://dummyjson.com/
 
-This is a simple DummyJSON project for Serenity with Cucumber 6 and RestAssured
+### A. Description Project
+- Intro DummyJSON
 
-## Want to learn more?
-For more information about Serenity BDD, you can read the [**Serenity BDD Book**](https://serenity-bdd.github.io/theserenitybook/latest/index.html), the official online Serenity documentation source. Other sources include:
-* **[Byte-sized Serenity BDD](https://www.youtube.com/channel/UCav6-dPEUiLbnu-rgpy7_bw/featured)** - tips and tricks about Serenity BDD
-* [**Serenity BDD Blog**](https://johnfergusonsmart.com/category/serenity-bdd/) - regular articles about Serenity BDD
-* [**The Serenity Dojo**](https://www.serenity-dojo.com) - Tailored BDD and Test Automation Training and Mentoring
+  DummyJSON is a free online REST API that you can use whenever you need some placeholder data for your front-end website or single-page application without running any server-side code. It's awesome for teaching purposes, sample codes, testing, prototyping.
+
+- Goal Project
+
+  The goal of this project is to create a comprehensive set of manual and automated tests for the DummyJSON API. These tests will help to ensure that the API is working as expected.
+  
+- Scope
+
+  The scope of this project includes a number of endpoints and resources exposed by the DummyJSON API. This includes the following: Auth, Carts, Products, Users, and Quotes.
+  
+### B. Manual Test Case Link
+- Postman: https://s.id/Postman_DummyJSON_Team3
+- Spreadsheet: https://s.id/Sheet_DummyJSON_Team3
+  
+### C. Image of overall test report
+### D. Image Coverage for Each Feature
+### E. Tools & Technology Stack
+
+**Manual Testing Tools:**
+- [Postman](https://www.postman.com/)
+
+**Automation Testing Tools:**
+- [IntelliJ IDEA](https://www.jetbrains.com/idea/)
+- [Java](https://www.java.com/)
+- [Maven](https://maven.apache.org/)
+
+**Framework:**
+- [Serenity BDD](https://serenity-bdd.info/)
+- [Cucumber](https://cucumber.io/)
+
+**Documentation For Scenario Testing:** 
+- [Google Spreadsheet](https://www.google.com/sheets/about/)
+
+**Team Collaboration:**
+- [Trello](https://trello.com/)
+- [GitHub](https://github.com/)
+- [Telegram](https://web.telegram.org/)
+- [Zoom](https://zoom.us/)
+
+### F. How to Run Project
+**Manual Testing:**
+1. Add new request
+2. Choose method
+3. Input url
+4. Input body (if needed)
+5. Input assertion
+6. Click send
+   
+**Automation Testing:**
+1. Click on text editor terminal
+2. Input mvn clean verify
+   
+### G. Team Member
+- [Ardhi Wiranata](https://github.com/Ardhi1102)
+- [Khairul Fahmi](https://github.com/sultanjoss)
